@@ -1,0 +1,125 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: whitesmoke;
+}
+
+/*
+.titleDiv{
+    width: 100%;
+    height: 200px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+*/
+
+h1{
+    font-size: 40pt;
+    font-family: cursive;
+    text-align: center;
+    background-color: white;
+}
+
+h2{
+    font-family:monospace;
+    padding-left: 40px;
+    font-size: 25pt;
+    margin-bottom: 0;
+    color:royalblue;
+    text-decoration:underline;
+}
+
+h3{
+    font-size: 30pt;
+    font-family:fantasy;
+    font-style: italic;
+    text-align: center;
+    color: chocolate;
+    font-weight: 2000;
+}
+
+.imageDiv{
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    
+}
+
+.ControllerImageDiv{
+    background-image: url("Assets/controllers.svg");
+    height: 300px;
+    margin-top: 10px;
+}
+
+.GamerImageDiv{
+    background-image: url("Assets/gamer.jpg");
+    width:200px;
+    height:300px;
+    float: left;
+    margin-right: 100px;
+}
+
+.DeveloperImageDiv{
+    background-image: url("Assets/developer.png");
+    width:170px;
+    height:250px;
+    float: left;
+    margin-top: 30px;
+    margin-right: 100px;
+}
+
+.StudentImageDiv{
+    background-image: url("Assets/bag.png");
+    width:200px;
+    height:290px;
+    float: left;
+    margin-top: 10px;
+    margin-right: 100px;
+}
+
+.WorkerImageDiv{
+    background-image: url("Assets/Worker.jpg");
+    width:200px;
+    height:290px;
+    float: left;
+    margin-top: 10px;
+}
+
+.ImageWrapperDiv{
+    width:1100px;
+    height: 300px;
+    margin: auto;
+    background-color: white;
+    margin-top: 20px;
+}
+
+.ProjectWrapperDiv{
+    width:900px;
+    height: auto;
+    border: 5px solid black;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.project{
+    width: 100%;
+    height:600px;
+    border-bottom: 3px solid black;
+   
+}
+
+.ProjectThree{
+    border: none;
+}
+
+.text{
+    width:80%;
+    font-size: 25pt;
+    margin: auto;
+}
+
+
+
+
+
